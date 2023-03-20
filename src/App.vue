@@ -10,6 +10,7 @@ import SBaseModal from './modal/base-modal'
 import STabs from './tab/tabs'
 import STab from './tab/tab'
 import SPopover from './popover/popover'
+// import SSpace from './space/src/space'
 
 const modalVisible = ref(false)
 
@@ -27,7 +28,7 @@ const open = () => {
 </script>
 
 <template>
-  <test></test>
+  <!-- <test></test>
   <s-button type="primary">确定</s-button>
   <SButton>取消</SButton>
   <h1 class="text-3xl font-bold underline">Hello world!</h1>
@@ -53,7 +54,11 @@ const open = () => {
   <div ref="host" class="host" @click="open">host</div>
   <SPopover v-model="visible" :host="host" title="Title" show-arrow
     >overlay</SPopover
-  >
+  > -->
+  <div>
+    <s-button type="primary">1123</s-button>
+    <s-space align="center" fill>123124</s-space>
+  </div>
 </template>
 
 <style scoped>

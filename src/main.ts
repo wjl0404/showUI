@@ -3,7 +3,8 @@ import { createApp } from 'vue'
 import './styles/index.scss'
 import App from './App.vue'
 import Button from './button'
-import ShowmeUI from '../build'
+
+import ShowmeUI from '../build/showme-ui'
 import '../build/style.css'
 
 // createApp(App).use(Button).mount('#app')
