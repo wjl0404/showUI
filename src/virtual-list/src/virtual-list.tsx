@@ -5,7 +5,7 @@ import '../style/virtual-list.scss'
 // 2.containerHeight高度自适应
 // 3.itemHeight传入
 export default defineComponent({
-  name: 'SVirtualList',
+  name: 'VirtualList',
   props: virtualListProps,
   setup(props: VirtualListProps, { slots }) {
     const { data, itemHeight, component: Component } = toRefs(props)
